@@ -4,7 +4,7 @@ import pandas as pd
 
 
 def get_weather(city: str):
-    API_key = "7c9613064f766cd14c75af562629c7c5"
+    API_key = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
     url = "https://api.openweathermap.org/data/2.5/weather"
     params = {
         'q' : city,
